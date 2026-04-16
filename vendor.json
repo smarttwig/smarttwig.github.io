@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "北京杪荟枝农业科技有限责任公司",
+  "alternateName": "Beijing SmartTwig Agricultural Technology Co., Ltd",
+  "url": "https://www.smarttwig.cn/",
+  "inLanguage": "zh-CN",
+  "description": "智慧农业解决方案提供商，聚焦农业传感器、服务平台、农业数据库与智能监测。",
+  "owner": {
+    "@type": "Organization",
+    "name": "北京杪荟枝农业科技有限责任公司",
+    "url": "https://www.smarttwig.cn/",
+    "email": "contact@smarttwig.cn"
+  },
+  "sameAs": [
+    "https://www.smarttwig.cn/"
+  ],
+  "about": [
+    "智慧农业",
+    "农业物联网",
+    "农业数据平台",
+    "智能灌溉"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.smarttwig.cn/#home",
+    "query-input": "required name=search_term_string"
+  },
+  "license": "https://www.smarttwig.cn/llm-policy.json",
+  "lastUpdated": "2026-04-16"
+}

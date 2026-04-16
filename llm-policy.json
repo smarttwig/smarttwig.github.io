@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "policy": {
+    "allowIndexing": true,
+    "allowRetrieval": true,
+    "allowSummarization": true,
+    "allowTraining": false,
+    "allowCommercialUse": true,
+    "attributionRequired": true,
+    "attributionText": "Source: Beijing SmartTwig Agricultural Technology Co., Ltd (https://www.smarttwig.cn)",
+    "preferredLanguage": "zh-CN",
+    "rateLimit": {
+      "requestsPerMinute": 120
+    },
+    "excludedPaths": [],
+    "canonicalUrls": [
+      "https://www.smarttwig.cn/"
+    ],
+    "referenceFiles": [
+      "https://www.smarttwig.cn/robots.txt",
+      "https://www.smarttwig.cn/llms.txt",
+      "https://www.smarttwig.cn/sitemap.xml"
+    ],
+    "contactEmail": "contact@smarttwig.cn"
+  },
+  "lastModified": "2026-04-16"
+}

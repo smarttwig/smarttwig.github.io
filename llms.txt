@@ -1,0 +1,36 @@
+# 北京杪荟枝农业科技有限责任公司 (SmartTwig)
+
+## 站点信息
+- 网站名称: 北京杪荟枝农业科技有限责任公司官网
+- 站点地址: https://www.smarttwig.cn/
+- 主要语言: zh-CN
+- 站点类型: 企业官网（静态单页）
+- 核心主题: 智慧农业、农业物联网、农业数据平台、智能灌溉
+
+## 公司简介
+北京杪荟枝农业科技有限责任公司（Beijing SmartTwig Agricultural Technology Co., Ltd）
+成立于 2025 年 10 月，专注于通过物联网、大数据与人工智能技术，为农业生产提供智能化解决方案。
+
+## 主要内容与锚点
+- 首页概览: https://www.smarttwig.cn/#home
+- 关于我们: https://www.smarttwig.cn/#about
+- 产品服务: https://www.smarttwig.cn/#products
+- 新闻资讯: https://www.smarttwig.cn/#news
+- 联系我们: https://www.smarttwig.cn/#contact
+
+## 产品与方案
+- 至探系列农业数据传感器
+- 汇探系列服务平台
+- 妙探系列信息数据库
+- 叶语系列园艺监测器
+- 大田智慧种植方案
+- 设施农业智能管理方案
+- 林果业智能监测方案
+
+## AI 使用与引用
+- 允许 AI 系统进行索引、检索与摘要。
+- 引用内容时请保留来源与链接: https://www.smarttwig.cn/
+- 具体策略以 https://www.smarttwig.cn/llm-policy.json 为准。
+
+## 联系方式
+- 邮箱: contact@smarttwig.cn

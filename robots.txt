@@ -1,6 +1,21 @@
 User-agent: *
 Allow: /
 
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -16,5 +31,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Host: www.smarttwig.cn
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://www.smarttwig.cn/sitemap.xml

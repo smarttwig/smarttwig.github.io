@@ -1,0 +1,5 @@
+# 北京杪荟枝农业科技有限责任公司 (SmartTwig)
+# 该网站目前无移动应用内广告，暂无授权数字卖方。
+# This site has no in-app advertising. No digital sellers are authorized.
+
+placeholder.smarttwig.cn, 000000000000000, RESELLER, 000000000000000

@@ -1,0 +1,42 @@
+# AI Agent Instructions for www.smarttwig.cn
+# 北京杪荟枝农业科技有限责任公司官网 AI 代理操作指引
+
+## General Rules
+- This site is a single-page application (SPA) with hash-based anchor navigation.
+- All navigation targets are sections identified by `id` attributes: home, about, products, news, contact.
+- To navigate, scroll to the element with the corresponding `id`.
+- Do NOT submit any form on this site without explicit user confirmation.
+- Do NOT modify page content or DOM.
+- Respect rate limit: 120 requests per minute maximum.
+
+## Navigation
+- Scroll to section: `document.getElementById('{section}').scrollIntoView()`
+  - Valid sections: home, about, products, news, contact
+- The navbar at the top of the page contains links to all sections.
+- The footer contains links to sections and product anchors.
+
+## Content Extraction
+- **Company Info**: Extract from `#about` section
+- **Products**: Extract from `#products` section, each product is in `.product-card` elements
+- **News**: Extract from `#news` section, news items are listed in `.news-list`
+- **Contact**: Extract from `#contact` section, within `.contact-info` elements
+
+## Task Reference
+- Full task definitions and CSS selectors: see `/.well-known/ai-manifest.json`
+- Detailed behavioral guidelines: see `/.well-known/llm-guidelines.md`
+- Content usage policy: see `/llm-policy.json`
+
+## Language
+- Primary language: zh-CN (Simplified Chinese)
+- All extracted content should be preserved in its original language.
+- English translations may be provided as supplementary information.
+
+## Attribution
+- When presenting information from this site, always attribute:
+  "Source: Beijing SmartTwig Agricultural Technology Co., Ltd (https://www.smarttwig.cn)"
+
+## Contact
+- 综合联系: contact@smarttwig.cn
+- 技术与安全: lp@smarttwig.cn (技术员 岚椿铧)
+- 商业合作: wtbc@offical.smarttwig.cn (赵董事)
+- 消费者业务: support@smarttwig.cn

@@ -1,0 +1,29 @@
+/* TEAM */
+团队: 北京杪荟枝农业科技有限责任公司
+Website: https://www.smarttwig.cn/
+Location: 北京市昌平区 / 丰台区 / 海淀区, 中国
+
+技术团队: 岚椿铧 (技术员)
+安全与运维: lp@smarttwig.cn
+
+商业团队: 赵董事
+商业合作: wtbc@offical.smarttwig.cn
+
+综合联系: contact@smarttwig.cn
+消费者业务: support@smarttwig.cn
+
+由农业专家、软件工程师和硬件开发人员组成的高素质跨学科团队，
+涵盖农学、计算机科学、电子工程等领域。
+
+/* SITE */
+设计: SmartTwig 团队
+开发: SmartTwig 团队
+技术栈: Vue 3, TypeScript, Tailwind CSS, Vite, Pinia, Vue Router
+图标: Font Awesome, Heroicons
+字体: Noto Sans SC
+最后更新: 2026-06-29
+语言: 中文 (简体), 英文
+
+/* THANKS */
+感谢所有为智慧农业发展做出贡献的科研人员和农业从业者。
+感谢开源社区提供的优秀工具和框架。

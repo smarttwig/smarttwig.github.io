@@ -19,9 +19,23 @@
     "referenceFiles": [
       "https://www.smarttwig.cn/robots.txt",
       "https://www.smarttwig.cn/llms.txt",
-      "https://www.smarttwig.cn/sitemap.xml"
+      "https://www.smarttwig.cn/llms-full.txt",
+      "https://www.smarttwig.cn/sitemap.xml",
+      "https://www.smarttwig.cn/ai.txt",
+      "https://www.smarttwig.cn/humans.txt",
+      "https://www.smarttwig.cn/.well-known/security.txt",
+      "https://www.smarttwig.cn/.well-known/ai-governance.json",
+      "https://www.smarttwig.cn/.well-known/ai-manifest.json",
+      "https://www.smarttwig.cn/.well-known/interpretation-policy.json",
+      "https://www.smarttwig.cn/.well-known/response-legitimacy.json",
+      "https://www.smarttwig.cn/.well-known/llm-guidelines.md"
     ],
-    "contactEmail": "contact@smarttwig.cn"
+    "contactEmail": {
+      "general": "contact@smarttwig.cn",
+      "techAndSecurity": "lp@smarttwig.cn",
+      "business": "wtbc@offical.smarttwig.cn",
+      "consumer": "support@smarttwig.cn"
+    }
   },
-  "lastModified": "2026-04-16"
+  "lastModified": "2026-06-29"
 }

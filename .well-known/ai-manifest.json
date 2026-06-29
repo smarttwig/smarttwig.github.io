@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0",
+  "domain": "www.smarttwig.cn",
+  "organization": "北京杪荟枝农业科技有限责任公司",
+  "description": "AI代理操作清单 - 为AI代理（能执行操作的AI）提供在网站上执行复杂任务的指令",
+  "tasks": [
+    {
+      "taskId": "navigate_to_section",
+      "description": "导航到网站指定板块",
+      "steps": [
+        {
+          "action": "scroll_to",
+          "selector": "#{section}",
+          "params": {
+            "section": "enum:home,about,products,news,contact"
+          }
+        }
+      ]
+    },
+    {
+      "taskId": "view_product_detail",
+      "description": "查看产品详情",
+      "steps": [
+        {
+          "action": "scroll_to",
+          "selector": "#products"
+        },
+        {
+          "action": "read",
+          "selector": ".product-card",
+          "params": {
+            "expand": true
+          }
+        }
+      ]
+    },
+    {
+      "taskId": "get_contact_info",
+      "description": "获取联系信息",
+      "steps": [
+        {
+          "action": "scroll_to",
+          "selector": "#contact"
+        },
+        {
+          "action": "extract",
+          "selector": ".contact-info",
+          "params": {
+            "fields": ["email", "phone", "address", "social_media"]
+          }
+        }
+      ]
+    },
+    {
+      "taskId": "read_news",
+      "description": "阅读新闻资讯",
+      "steps": [
+        {
+          "action": "scroll_to",
+          "selector": "#news"
+        },
+        {
+          "action": "read",
+          "selector": ".news-list",
+          "params": {
+            "expand": true
+          }
+        }
+      ]
+    },
+    {
+      "taskId": "search_site",
+      "description": "在当前网站页内搜索内容",
+      "steps": [
+        {
+          "action": "scroll_to",
+          "selector": "#home"
+        },
+        {
+          "action": "find_text",
+          "params": {
+            "query": "{search_term}"
+          }
+        }
+      ]
+    }
+  ],
+  "globalConstraints": {
+    "maxActionsPerMinute": 120,
+    "preferredLanguage": "zh-CN",
+    "requireAttribution": true,
+    "prohibitedActions": [
+      "form_submission_without_user_confirmation",
+      "modify_page_content",
+      "click_external_links_without_user_confirmation"
+    ]
+  }
+}

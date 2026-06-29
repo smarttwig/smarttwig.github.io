@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "domain": "www.smarttwig.cn",
+  "organization": "北京杪荟枝农业科技有限责任公司",
+  "organizationEn": "Beijing SmartTwig Agricultural Technology Co., Ltd",
+  "lastModified": "2026-06-29",
+  "contactEmail": {
+    "general": "contact@smarttwig.cn",
+    "techAndSecurity": "lp@smarttwig.cn",
+    "business": "wtbc@offical.smarttwig.cn",
+    "consumer": "support@smarttwig.cn"
+  },
+  "governanceStack": {
+    "layer1_access": {
+      "priority": 1,
+      "description": "基础爬虫访问控制层，定义哪些爬虫/AI可以访问哪些路径",
+      "files": ["https://www.smarttwig.cn/robots.txt"]
+    },
+    "layer2_indexing": {
+      "priority": 2,
+      "description": "内容索引与发现层，为搜索引擎和AI提供站点地图和概要",
+      "files": [
+        "https://www.smarttwig.cn/sitemap.xml",
+        "https://www.smarttwig.cn/llms.txt",
+        "https://www.smarttwig.cn/llms-full.txt"
+      ]
+    },
+    "layer3_policy": {
+      "priority": 3,
+      "description": "AI使用政策层，定义AI对内容的使用权限和限制",
+      "files": [
+        "https://www.smarttwig.cn/llm-policy.json",
+        "https://www.smarttwig.cn/.well-known/ai-governance.json"
+      ]
+    },
+    "layer4_guidance": {
+      "priority": 4,
+      "description": "AI行为指引层，为AI代理提供操作指令和行为约束",
+      "files": [
+        "https://www.smarttwig.cn/ai.txt",
+        "https://www.smarttwig.cn/.well-known/ai-manifest.json",
+        "https://www.smarttwig.cn/.well-known/interpretation-policy.json",
+        "https://www.smarttwig.cn/.well-known/response-legitimacy.json",
+        "https://www.smarttwig.cn/.well-known/llm-guidelines.md"
+      ]
+    },
+    "layer5_identity": {
+      "priority": 5,
+      "description": "身份与透明性层，声明网站所有者、团队和安全报告通道",
+      "files": [
+        "https://www.smarttwig.cn/humans.txt",
+        "https://www.smarttwig.cn/ads.txt",
+        "https://www.smarttwig.cn/.well-known/security.txt"
+      ]
+    }
+  },
+  "conflictResolution": {
+    "rule": "higherPriorityWins",
+    "description": "当不同层级文件中的规则发生冲突时，以优先级数值更小（更高优先级）的文件为准。Layer 1 > Layer 2 > Layer 3 > Layer 4 > Layer 5。"
+  },
+  "complianceMatrix": {
+    "searchEngines": ["robots.txt", "sitemap.xml"],
+    "aiCrawlers": ["robots.txt", "llms.txt", "llm-policy.json"],
+    "aiAgents": ["ai.txt", "ai-manifest.json", "llm-policy.json"],
+    "aiResponses": ["interpretation-policy.json", "response-legitimacy.json", "llm-guidelines.md"],
+    "security": ["security.txt"],
+    "advertising": ["ads.txt"]
+  }
+}

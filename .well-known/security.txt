@@ -1,0 +1,7 @@
+Contact: mailto:lp@smarttwig.cn
+Contact: mailto:contact@smarttwig.cn
+Expires: 2027-06-29T00:00:00.000Z
+Preferred-Languages: zh-CN, en
+Canonical: https://www.smarttwig.cn/.well-known/security.txt
+Policy: https://www.smarttwig.cn/llm-policy.json
+Acknowledgments: https://www.smarttwig.cn/#about

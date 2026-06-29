@@ -27,10 +27,22 @@
 - 设施农业智能管理方案
 - 林果业智能监测方案
 
+## 机器治理文件
+- 详细内容索引: https://www.smarttwig.cn/llms-full.txt
+- AI使用政策: https://www.smarttwig.cn/llm-policy.json
+- AI治理总纲: https://www.smarttwig.cn/.well-known/ai-governance.json
+- AI代理操作指引: https://www.smarttwig.cn/ai.txt
+
 ## AI 使用与引用
 - 允许 AI 系统进行索引、检索与摘要。
+- 禁止用于 AI/ML 模型训练。
 - 引用内容时请保留来源与链接: https://www.smarttwig.cn/
 - 具体策略以 https://www.smarttwig.cn/llm-policy.json 为准。
+- AI行为详细指引: https://www.smarttwig.cn/.well-known/llm-guidelines.md
 
 ## 联系方式
-- 邮箱: contact@smarttwig.cn
+- 综合联系: contact@smarttwig.cn
+- 技术与安全: lp@smarttwig.cn (技术员 岚椿铧)
+- 商业合作: wtbc@offical.smarttwig.cn (赵董事)
+- 消费者业务: support@smarttwig.cn
+- 安全漏洞报告: https://www.smarttwig.cn/.well-known/security.txt

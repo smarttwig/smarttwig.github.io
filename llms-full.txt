@@ -1,0 +1,112 @@
+# 北京杪荟枝农业科技有限责任公司 (SmartTwig) - 详细内容索引
+
+## 站点信息
+- 网站名称: 北京杪荟枝农业科技有限责任公司官网
+- 站点地址: https://www.smarttwig.cn/
+- 主要语言: zh-CN
+- 站点类型: 企业官网（静态单页 SPA）
+- 核心主题: 智慧农业、农业物联网、农业数据平台、智能灌溉
+- 技术栈: Vue 3 + TypeScript + Tailwind CSS + Vite
+
+---
+
+## 公司概况
+
+北京杪荟枝农业科技有限责任公司（Beijing SmartTwig Agricultural Technology Co., Ltd）
+成立于 2025 年 10 月，注册地址位于北京市昌平区，在丰台区和海淀区设有办公室。
+
+公司专注于通过物联网、大数据与人工智能技术，为农业生产提供智能化解决方案。
+
+### 使命
+用科技赋能农业，推动农业现代化发展
+
+### 愿景
+成为智慧农业领域的引领者
+
+### 核心价值观
+创新、协作、诚信、卓越
+
+### 经营理念
+以客户为中心，以技术为驱动
+
+---
+
+## 网站版块与锚点
+
+- 首页概览: https://www.smarttwig.cn/#home
+- 关于我们: https://www.smarttwig.cn/#about
+- 产品服务: https://www.smarttwig.cn/#products
+- 新闻资讯: https://www.smarttwig.cn/#news
+- 联系我们: https://www.smarttwig.cn/#contact
+
+---
+
+## 产品线（四大系列）
+
+### 1. 至探系列农业数据传感器 (ZhiTan)
+高精度多参数农业传感器，可监测土壤温湿度、光照、CO2浓度等环境参数。
+特点：高精度、低功耗、无线传输、支持多种通信协议。
+
+### 2. 汇探系列服务平台 (HuiTan)
+基于云计算和大数据的农业信息服务平台，集成传感器数据进行分析、可视化和决策支持。
+特点：实时监控、智能预警、个性化报告、多终端访问。
+
+### 3. 妙探系列信息数据库 (MiaoTan)
+综合多源农业数据数据库，集成气象数据、土壤数据、作物生长模型等。
+特点：多源数据融合、生长模型模拟、历史趋势分析。
+
+### 4. 叶语系列园艺监测器 (YeYu)
+面向家庭园艺的智能监测设备，实时监测植物生长环境并提供个性化养护建议。
+特点：小巧便携、手机APP、智能浇水提醒。
+
+---
+
+## 解决方案
+
+### 1. 大田智慧种植方案
+通过传感器网络、无人机监测、精准灌溉和变量施肥技术，实现大面积农田的智能化管理。
+
+### 2. 设施农业智能管理方案
+面向温室大棚等设施农业，通过环境监测、自动化控制和全周期数字化管理，提升作物产量和品质。
+
+### 3. 林果业智能监测方案
+针对果树和经济林，通过果实生长追踪、病虫害早期预警、精准灌溉和营养管理，保障林业产出。
+
+---
+
+## 公司动态（新闻资讯）
+
+- **2025-10-15** | 公司新闻: 北京杪荟枝农业科技有限责任公司正式成立
+- **2025-11-20** | 产品发布: 至探系列农业数据传感器正式发布
+- **2025-12-05** | 技术分享: 智能灌溉技术在现代农业中的应用与发展
+
+---
+
+## AI 使用与引用
+- 允许 AI 系统进行索引、检索与摘要
+- 禁止用于 AI/ML 模型训练
+- 引用内容时请保留来源与链接: https://www.smarttwig.cn/
+- 具体策略以 https://www.smarttwig.cn/llm-policy.json 为准
+- AI行为指引: https://www.smarttwig.cn/.well-known/llm-guidelines.md
+
+---
+
+## 联系方式
+- 综合联系: contact@smarttwig.cn
+- 技术与安全: lp@smarttwig.cn (技术员 岚椿铧)
+- 商业合作: wtbc@offical.smarttwig.cn (赵董事)
+- 消费者业务: support@smarttwig.cn
+- 官网: https://www.smarttwig.cn/
+
+---
+
+## 机器治理文件索引
+- robots.txt: https://www.smarttwig.cn/robots.txt
+- sitemap.xml: https://www.smarttwig.cn/sitemap.xml
+- llms.txt: https://www.smarttwig.cn/llms.txt
+- llm-policy.json: https://www.smarttwig.cn/llm-policy.json
+- ai.txt: https://www.smarttwig.cn/ai.txt
+- humans.txt: https://www.smarttwig.cn/humans.txt
+- .well-known/security.txt: https://www.smarttwig.cn/.well-known/security.txt
+- .well-known/ai-governance.json: https://www.smarttwig.cn/.well-known/ai-governance.json
+- .well-known/llm-guidelines.md: https://www.smarttwig.cn/.well-known/llm-guidelines.md

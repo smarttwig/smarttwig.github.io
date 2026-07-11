@@ -1,0 +1,29 @@
+[
+  {
+    "fileName": "news3",
+    "title": "智能灌溉技术在现代农业中的应用与发展",
+    "date": "2025-12-05",
+    "category": "技术分享",
+    "color": "purple",
+    "description": "智能灌溉技术作为智慧农业的重要组成部分，正在改变传统的农业灌溉方式，实现水资源的高效利用和作物产量的提升。",
+    "image": "/images/news/news3.png"
+  },
+  {
+    "fileName": "news2",
+    "title": "至探系列农业数据传感器正式发布",
+    "date": "2025-11-20",
+    "category": "产品发布",
+    "color": "blue",
+    "description": "我公司自主研发的至探系列农业数据传感器正式发布，该产品采用先进的传感技术，能够精准监测土壤温湿度、光照等参数。",
+    "image": "/images/news/news2.png"
+  },
+  {
+    "fileName": "news1",
+    "title": "北京杪荟枝农业科技有限公司正式成立",
+    "date": "2025-10-15",
+    "category": "公司新闻",
+    "color": "green",
+    "description": "北京杪荟枝农业科技有限公司于2025年10月正式成立，致力于为智慧农业领域提供创新解决方案，推动农业数字化转型。",
+    "image": "/images/news/news1.png"
+  }
+]
